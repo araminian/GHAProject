@@ -9,7 +9,7 @@ jobs:
       - name: 'Auto assign issue'
         uses: pozil/auto-assign-issue@v1.0.3
         with:
-          repo-token: ${{ secret.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: testesdapri
   
 
